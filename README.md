@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
   # Stock Market All In One
 
@@ -8,3 +9,7 @@
   2) In the terminal, run `npm install`
   3) Run `npm start` to view project in browser
   
+=======
+# StockMarket-All-In-One
+A website for daily stock market all updates, Like-Live Stock Market Updates, Market News, Interactive Charts, Search Functionality, Watchlist or Portfolio, Educational Content, IPO,IPO GMP, etc
+>>>>>>> 7c4d9892796d0cec6b6f1d41e41a011e3ecdd421
