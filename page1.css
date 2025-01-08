@@ -1,0 +1,44 @@
+.successful-investing-is {
+  width: 929px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 157px;
+  flex-shrink: 0;
+}
+.frame,
+.frame1 {
+  width: 1043px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.frame {
+  width: 1256px;
+  background-color: var(--color-gainsboro);
+  align-items: flex-start;
+}
+.photo-2024-12-14-23-48-49-icon {
+  width: 1256px;
+  position: relative;
+  height: 821px;
+  object-fit: cover;
+}
+.page-3 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 92px;
+  box-sizing: border-box;
+  text-align: right;
+  font-size: 64px;
+  color: var(--color-black);
+  font-family: var(--font-fraunces);
+}

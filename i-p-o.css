@@ -1,0 +1,30 @@
+.httpswwwnseindiacommarke2 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 33px;
+}
+.httpswwwnseindiacommarke1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.httpswwwnseindiacommarke,
+.ipo {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.httpswwwnseindiacommarke {
+  width: 820px;
+  height: 78px;
+  flex-shrink: 0;
+}
+.ipo {
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  font-size: 25px;
+  color: var(--color-cornflowerblue);
+  font-family: var(--font-fraunces);
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./profile.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="profile" id="popupprofileContainer">
+      <div class="profile-child" data-scroll-to="rectangle"></div>
+      <img class="photo-1-icon1" alt="" src="./public/photo-11@2x.png" />
+
+      <div class="profile-item"></div>
+      <div class="btech-in-civil">
+        B.Tech in Civil Engineering from Puducherry Technological University,
+        Pondicherry 605014
+      </div>
+      <div class="profile-inner"></div>
+      <div class="name-manish-kumar-container">
+        <p class="name-manish-kumar">Name- Manish Kumar</p>
+        <p class="name-manish-kumar">Contact-8051271454</p>
+        <p class="mail-id-mkbgs8051gmailcom">Mail Id- mkbgs8051@gmail.com</p>
+      </div>
+    </div>
+
+    <script>
+      var popupprofileContainer = document.getElementById("popupprofileContainer");
+      if (popupprofileContainer) {
+        popupprofileContainer.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='rectangle']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      </script>
+  </body>
+</html>

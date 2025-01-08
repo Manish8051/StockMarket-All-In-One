@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./menu-bar1.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="menu-bar">
+      <div class="contact">
+        <ul class="contact1">
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="chart-and-indicator-container" id="popupchartAndIndicator">
+        <ul class="contact1">
+          <li>Chart and Indicator</li>
+        </ul>
+      </div>
+      <div class="developer-profile">
+        <ul class="contact1">
+          <li>Developer Profile</li>
+        </ul>
+      </div>
+      <div class="news1">
+        <ul class="contact1">
+          <li>News</li>
+        </ul>
+      </div>
+      <div class="educational-content" id="popupeducationalContentText">
+        <ul class="contact1">
+          <li>Educational Content</li>
+        </ul>
+      </div>
+      <div class="about1">
+        <ul class="contact1">
+          <li>About</li>
+        </ul>
+      </div>
+    </div>
+
+    <script>
+      var popupchartAndIndicator = document.getElementById("popupchartAndIndicator");
+      if (popupchartAndIndicator) {
+        popupchartAndIndicator.addEventListener("click", function (e) {
+          window.location.href = "./chart-phtoto.html";
+        });
+      }
+      
+      var popupeducationalContentText = document.getElementById(
+        "popupeducationalContentText"
+      );
+      if (popupeducationalContentText) {
+        popupeducationalContentText.addEventListener("click", function () {
+          window.open("http://www.youtube.com/      @marketmasterymanish");
+        });
+      }
+      </script>
+  </body>
+</html>

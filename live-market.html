@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./live-market.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="live-market">
+      <div class="nifty-504" id="nifty50Container">
+        <div class="httpswwwtradingviewcomsy">
+          https://www.tradingview.com/symbols/NSE-NIFTY/
+        </div>
+      </div>
+      <div class="bank-nifty4" id="bankNiftyContainer">
+        <div class="httpswwwtradingviewcomch3">
+          https://www.tradingview.com/chart/?symbol=NSE%3ABANKNIFTY
+        </div>
+      </div>
+      <div class="sensex4" id="sensexContainer">
+        <div class="httpswwwtradingviewcomch4">
+          https://www.tradingview.com/chart/?symbol=BSE%3ASENSEX
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var nifty50Container = document.getElementById("nifty50Container");
+      if (nifty50Container) {
+        nifty50Container.addEventListener("click", function () {
+          window.open("https://www.tradingview.com/symbols/NSE-NIFTY/");
+        });
+      }
+      
+      var bankNiftyContainer = document.getElementById("bankNiftyContainer");
+      if (bankNiftyContainer) {
+        bankNiftyContainer.addEventListener("click", function () {
+          window.open("https://www.tradingview.com/chart/?symbol=NSE%3ABANKNIFTY");
+        });
+      }
+      
+      var sensexContainer = document.getElementById("sensexContainer");
+      if (sensexContainer) {
+        sensexContainer.addEventListener("click", function () {
+          window.open("https://www.tradingview.com/chart/?symbol=BSE%3ASENSEX");
+        });
+      }
+      </script>
+  </body>
+</html>

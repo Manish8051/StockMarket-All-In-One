@@ -1,0 +1,29 @@
+.photo-2024-12-14-23-48-49-1-icon {
+  position: absolute;
+  top: 520px;
+  left: 758px;
+  width: 682px;
+  height: 504px;
+  object-fit: cover;
+}
+.adobestock-130143481-preview-1-icon,
+.photo-2024-12-14-23-48-56-1-icon {
+  position: absolute;
+  top: 520px;
+  left: 0;
+  width: 726px;
+  height: 504px;
+  object-fit: cover;
+}
+.adobestock-130143481-preview-1-icon {
+  top: 0;
+  width: 1440px;
+  height: 520px;
+}
+.page-4 {
+  width: 100%;
+  position: relative;
+  background-color: #262a39;
+  height: 1024px;
+  overflow: hidden;
+}

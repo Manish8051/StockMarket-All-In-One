@@ -1,0 +1,70 @@
+.httpswwwmoneycontrolcom2 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.httpswwwmoneycontrolcom1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.httpswwwmoneycontrolcom {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.frame-container,
+.httpswwwmoneycontrolcom,
+.httpswwwmoneycontrolcom-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 463px;
+  height: 55px;
+}
+.frame-container {
+  left: 4.5px;
+  width: 697.6px;
+  height: 64.4px;
+  cursor: pointer;
+}
+.httpswwwtradingviewcomne {
+  display: flex;
+  align-items: center;
+}
+.httpswwwtradingviewcomne,
+.httpswwwtradingviewcomne-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 469px;
+  height: 68px;
+}
+.frame-div,
+.frame-parent {
+  position: absolute;
+  left: 0;
+  width: 706.7px;
+}
+.frame-div {
+  top: 99.6px;
+  height: 79.6px;
+  cursor: pointer;
+}
+.frame-parent {
+  top: 0;
+  height: 179.2px;
+}
+.news-content {
+  width: 791px;
+  position: relative;
+  background-color: #24242a;
+  height: 292px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-deepskyblue-100);
+  font-family: var(--font-fraunces);
+}

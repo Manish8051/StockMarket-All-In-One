@@ -1,0 +1,18 @@
+.httpwwwyoutubecom-marke {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 356px;
+  height: 56px;
+}
+.youtube {
+  width: 100%;
+  position: relative;
+  height: 56px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-deepskyblue-200);
+  font-family: var(--font-fraunces);
+}

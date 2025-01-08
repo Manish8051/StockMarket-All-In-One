@@ -1,0 +1,33 @@
+.learn-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-lavender);
+  width: 548px;
+  height: 122px;
+}
+.httpwwwyoutubecom-marke1 {
+  position: absolute;
+  top: 17px;
+  left: 28px;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 504px;
+}
+.social-iconsyoutubeoriginal1 {
+  position: absolute;
+  top: 21px;
+  left: 57px;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.learn {
+  width: 548px;
+  max-width: 100%;
+  height: 122px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-deepskyblue-200);
+  font-family: var(--font-fraunces);
+}

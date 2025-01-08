@@ -1,0 +1,85 @@
+.super-trend-1 {
+  position: absolute;
+  top: 331.7px;
+  left: 657.2px;
+  width: 637.1px;
+  height: 299.8px;
+  object-fit: cover;
+}
+.super-trend {
+  position: absolute;
+  top: 434.7px;
+  left: 939.2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 191.9px;
+}
+.rsi-1-icon {
+  position: absolute;
+  top: 8.2px;
+  left: 0;
+  width: 637.1px;
+  height: 299.8px;
+  object-fit: cover;
+}
+.rsi {
+  position: absolute;
+  top: 214.4px;
+  left: 314.8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64.5px;
+}
+.bollinger-bands-1,
+.macd-1-icon,
+.rankdelta-1-icon,
+.volume-and-vwap-1 {
+  position: absolute;
+  top: 321.8px;
+  left: -0.3px;
+  width: 637.1px;
+  height: 299.8px;
+  object-fit: cover;
+}
+.bollinger-bands-1,
+.rankdelta-1-icon,
+.volume-and-vwap-1 {
+  top: 635.5px;
+}
+.rankdelta-1-icon,
+.volume-and-vwap-1 {
+  top: 641.5px;
+  left: 657.2px;
+}
+.volume-and-vwap-1 {
+  top: 8px;
+  width: 637.5px;
+  height: 313.8px;
+}
+.chart-and-indicator-inner,
+.frame-wrapper,
+.super-trend-1-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1295px;
+  height: 926.3px;
+}
+.chart-and-indicator-inner,
+.frame-wrapper {
+  width: 1314px;
+}
+.chart-and-indicator-inner {
+  left: 1px;
+}
+.chart-and-indicator {
+  width: 100%;
+  position: relative;
+  height: 954.2px;
+  text-align: center;
+  font-size: var(--font-size-lg-8);
+  color: var(--color-black);
+  font-family: var(--font-fraunces);
+}

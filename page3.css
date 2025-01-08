@@ -1,0 +1,38 @@
+.page-5-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gainsboro);
+  width: 1440px;
+  height: 296px;
+}
+.successful-investing-is1 {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  display: inline-block;
+  width: 1391px;
+  height: 257px;
+}
+.photo-2024-12-14-23-49-10-1-icon {
+  position: absolute;
+  top: 296px;
+  left: 553px;
+  width: 887px;
+  height: 728px;
+  object-fit: cover;
+}
+.page-5 {
+  width: 100%;
+  position: relative;
+  height: 1024px;
+  overflow: hidden;
+  background-image: url(./public/page-5@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-77xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

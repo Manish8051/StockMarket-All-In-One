@@ -1,0 +1,59 @@
+.httpswwwtradingviewcomsy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 672px;
+}
+.httpswwwtradingviewcomch3,
+.httpswwwtradingviewcomsy,
+.nifty-504 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+}
+.nifty-504 {
+  width: 672px;
+  cursor: pointer;
+}
+.httpswwwtradingviewcomch3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 820px;
+}
+.bank-nifty4 {
+  position: absolute;
+  top: 119px;
+  left: 15px;
+  width: 791px;
+  height: 50px;
+  cursor: pointer;
+}
+.httpswwwtradingviewcomch4,
+.sensex4 {
+  position: absolute;
+  left: 0;
+  width: 770px;
+  height: 64px;
+}
+.httpswwwtradingviewcomch4 {
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sensex4 {
+  top: 225px;
+  cursor: pointer;
+}
+.live-market {
+  width: 820px;
+  background-color: #a9c2d6;
+  max-width: 100%;
+  height: 289px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-fraunces);
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="page-2">
+      <img
+        class="dalle-2024-12-12-173604-a"
+        alt=""
+        src="./public/dalle-20241212-173604--a-sleek-and-modern-logo-for-a-website-named-stockmarket-all-in-one-the-logo-includes-an-abstract-graphic-element-representing-growth-and-stock-mark-3@2x.png"
+      />
+
+      <img
+        class="dalle-2024-12-12-173604-a1"
+        alt=""
+        src="./public/dalle-20241212-173604--a-sleek-and-modern-logo-for-a-website-named-stockmarket-all-in-one-the-logo-includes-an-abstract-graphic-element-representing-growth-and-stock-mark-1@2x.png"
+      />
+
+      <div class="page-2-inner">
+        <div class="frame-child"></div>
+      </div>
+      <div class="trade">Trade</div>
+      <div class="chart-analysis1" id="chartAnalysisText">Chart Analysis</div>
+      <div class="indicator" id="indicatorText">Indicator</div>
+      <div class="ipo1" id="iPOText">IPO</div>
+    </div>
+
+    <script>
+      var chartAnalysisText = document.getElementById("chartAnalysisText");
+      if (chartAnalysisText) {
+        chartAnalysisText.addEventListener("click", function () {
+          window.open("https://www.tradingview.com/chart/?symbol=NSE%3ANIFTY");
+        });
+      }
+      
+      var indicatorText = document.getElementById("indicatorText");
+      if (indicatorText) {
+        indicatorText.addEventListener("click", function (e) {
+          window.location.href = "./chart-and-indicator.html";
+        });
+      }
+      
+      var iPOText = document.getElementById("iPOText");
+      if (iPOText) {
+        iPOText.addEventListener("click", function () {
+          window.open("https://www.nseindia.com/market-data/all-upcoming-issues-ipo");
+        });
+      }
+      </script>
+  </body>
+</html>

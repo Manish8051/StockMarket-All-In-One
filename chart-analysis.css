@@ -1,0 +1,30 @@
+.httpswwwtradingviewcomch2 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.httpswwwtradingviewcomch1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.chart-analysis,
+.httpswwwtradingviewcomch {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.httpswwwtradingviewcomch {
+  width: 775px;
+  height: 66px;
+  flex-shrink: 0;
+}
+.chart-analysis {
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-cornflowerblue);
+  font-family: var(--font-fraunces);
+}

@@ -1,0 +1,19 @@
+.httpsxcommanishk03945329 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 396px;
+  height: 45px;
+}
+.twitter {
+  width: 100%;
+  position: relative;
+  height: 45px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-fraunces);
+}

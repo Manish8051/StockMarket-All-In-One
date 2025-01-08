@@ -1,0 +1,104 @@
+.dalle-2024-12-12-173604-a,
+.dalle-2024-12-12-173604-a1 {
+  width: 200px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 1240px;
+  border-radius: var(--br-xl);
+  height: 180px;
+  object-fit: cover;
+  z-index: 0;
+}
+.dalle-2024-12-12-173604-a1 {
+  left: 0;
+  z-index: 1;
+}
+.frame-child {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: #a07f7f;
+  height: 92px;
+}
+.page-2-inner {
+  width: 973px;
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 464px);
+  left: 252px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.chart-analysis1,
+.indicator,
+.ipo1,
+.trade {
+  position: absolute;
+  margin: 0 !important;
+  display: flex;
+  align-items: center;
+}
+.trade {
+  align-self: stretch;
+  width: 137px;
+  top: 72px;
+  left: 459px;
+  letter-spacing: 0.1em;
+  z-index: 3;
+}
+.chart-analysis1,
+.indicator,
+.ipo1 {
+  top: 68px;
+  height: 60px;
+  cursor: pointer;
+}
+.chart-analysis1 {
+  width: 260px;
+  left: 648px;
+  text-align: center;
+  justify-content: center;
+  z-index: 4;
+}
+.indicator,
+.ipo1 {
+  width: 195px;
+  left: 967px;
+  letter-spacing: 0.05em;
+  z-index: 5;
+}
+.ipo1 {
+  width: 86px;
+  top: 72px;
+  left: 319px;
+  letter-spacing: 0.1em;
+  line-height: 123.31%;
+  z-index: 6;
+}
+.page-2 {
+  width: 100%;
+  position: relative;
+  height: 1024px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  background-image: url(./public/page-2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: right;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-fraunces);
+}

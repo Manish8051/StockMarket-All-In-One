@@ -1,0 +1,68 @@
+.profile-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #bdcef6;
+  width: 672px;
+  height: 381px;
+}
+.photo-1-icon1 {
+  position: absolute;
+  top: 50px;
+  left: 464px;
+  width: 183px;
+  height: 217px;
+  object-fit: cover;
+}
+.profile-item {
+  position: absolute;
+  top: 33px;
+  left: 18px;
+  background-color: var(--color-lightsteelblue-100);
+  width: 382px;
+  height: 109px;
+}
+.btech-in-civil {
+  position: absolute;
+  top: 48px;
+  left: 36px;
+  display: inline-block;
+  width: 387px;
+  height: 109px;
+}
+.profile-inner {
+  position: absolute;
+  top: 179px;
+  left: 36px;
+  background-color: var(--color-lightsteelblue-100);
+  width: 399px;
+  height: 135px;
+}
+.name-manish-kumar {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.mail-id-mkbgs8051gmailcom {
+  margin: 0;
+}
+.name-manish-kumar-container {
+  position: absolute;
+  top: 179px;
+  left: 36px;
+  display: inline-block;
+  width: 387px;
+  height: 153px;
+}
+.profile {
+  width: 672px;
+  position: relative;
+  height: 381px;
+  cursor: pointer;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-fraunces);
+}

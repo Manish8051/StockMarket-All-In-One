@@ -1,0 +1,41 @@
+.adobestock-294173303-preview-1-icon {
+  position: absolute;
+  top: 597px;
+  left: 0;
+  width: 513px;
+  height: 427px;
+  object-fit: cover;
+}
+.adobestock-286454675-preview-1-icon {
+  position: absolute;
+  top: 0;
+  left: 843px;
+  width: 597px;
+  height: 353px;
+  object-fit: cover;
+}
+.dont-give-up {
+  margin: 0;
+}
+.dont-give-up-container {
+  position: absolute;
+  top: 353px;
+  left: 393px;
+  display: inline-block;
+  width: 779px;
+  height: 250px;
+}
+.page-6 {
+  width: 100%;
+  position: relative;
+  height: 1024px;
+  overflow: hidden;
+  background-image: url(./public/page-6@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-77xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
