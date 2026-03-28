@@ -1,60 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Live market links — Nifty 50, Bank Nifty, Sensex on TradingView." />
+    <title>Live markets — StockMarket All In One</title>
     <link rel="stylesheet" href="./global.css" />
-    <link rel="stylesheet" href="./live-market.css" />
+    <link rel="stylesheet" href="./site.css" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700&display=swap"
     />
   </head>
   <body>
-    <div class="live-market">
-      <div class="nifty-504" id="nifty50Container">
-        <div class="httpswwwtradingviewcomsy">
-          https://www.tradingview.com/symbols/NSE-NIFTY/
-        </div>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="site-logo" href="./index.html">StockMarket <span>All In One</span></a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="./live-market.html" aria-current="page">Live</a>
+          <a href="./news-content.html">News</a>
+          <a href="./learn.html">Learn</a>
+          <a href="./chart-phtoto.html">Charts</a>
+          <a href="./chart-and-indicator.html">Indicators</a>
+          <a href="./i-p-o.html">IPO</a>
+          <a href="./about-us.html">About</a>
+          <a href="./profile.html">Profile</a>
+          <a href="./contact-us.html">Contact</a>
+        </nav>
       </div>
-      <div class="bank-nifty4" id="bankNiftyContainer">
-        <div class="httpswwwtradingviewcomch3">
-          https://www.tradingview.com/chart/?symbol=NSE%3ABANKNIFTY
-        </div>
-      </div>
-      <div class="sensex4" id="sensexContainer">
-        <div class="httpswwwtradingviewcomch4">
-          https://www.tradingview.com/chart/?symbol=BSE%3ASENSEX
-        </div>
-      </div>
-    </div>
+    </header>
 
-    <script>
-      var nifty50Container = document.getElementById("nifty50Container");
-      if (nifty50Container) {
-        nifty50Container.addEventListener("click", function () {
-          window.open("https://www.tradingview.com/symbols/NSE-NIFTY/");
-        });
-      }
-      
-      var bankNiftyContainer = document.getElementById("bankNiftyContainer");
-      if (bankNiftyContainer) {
-        bankNiftyContainer.addEventListener("click", function () {
-          window.open("https://www.tradingview.com/chart/?symbol=NSE%3ABANKNIFTY");
-        });
-      }
-      
-      var sensexContainer = document.getElementById("sensexContainer");
-      if (sensexContainer) {
-        sensexContainer.addEventListener("click", function () {
-          window.open("https://www.tradingview.com/chart/?symbol=BSE%3ASENSEX");
-        });
-      }
-      </script>
+    <main class="site-main">
+      <div class="page-hero">
+        <h1>Live markets</h1>
+        <p class="lead">
+          Open TradingView symbols and charts for major Indian indices. Links match the
+          URLs used in the original project.
+        </p>
+      </div>
+
+      <div class="grid-3">
+        <a
+          class="link-card"
+          href="https://www.tradingview.com/symbols/NSE-NIFTY/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <strong>Nifty 50</strong>
+          <span>https://www.tradingview.com/symbols/NSE-NIFTY/</span>
+        </a>
+        <a
+          class="link-card"
+          href="https://www.tradingview.com/chart/?symbol=NSE%3ABANKNIFTY"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <strong>Bank Nifty</strong>
+          <span>https://www.tradingview.com/chart/?symbol=NSE%3ABANKNIFTY</span>
+        </a>
+        <a
+          class="link-card"
+          href="https://www.tradingview.com/chart/?symbol=BSE%3ASENSEX"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <strong>Sensex</strong>
+          <span>https://www.tradingview.com/chart/?symbol=BSE%3ASENSEX</span>
+        </a>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <div>
+          <h3>StockMarket All In One</h3>
+          <p>Daily market updates, news, charts, and learning in one place.</p>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="tel:+918051271454">+91 8051271454</a></li>
+            <li><a href="mailto:mkbgs8051@gmail.com">mkbgs8051@gmail.com</a></li>
+            <li><a href="https://t.me/+yQH8nlOoWwY0ODM1">Telegram</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Social</h3>
+          <ul>
+            <li>
+              <a href="https://www.youtube.com/@marketmasterymanish" target="_blank" rel="noopener noreferrer">YouTube</a>
+            </li>
+            <li>
+              <a href="https://x.com/manishk03945329?s=21" target="_blank" rel="noopener noreferrer">X (Twitter)</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="site-footer__bottom">© 2026 StockMarket All In One.</p>
+    </footer>
   </body>
 </html>
