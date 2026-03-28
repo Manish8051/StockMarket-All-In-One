@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "parcel ./*.html ",
-    "build": "parcel build ./*.html  --dist-dir ./build"
+    "prebuild": "node scripts/ensure-placeholder-pngs.js",
+    "start": "parcel ./*.html",
+    "build": "parcel build ./*.html --dist-dir ./build --public-url ./",
+    "build:github-pages": "parcel build ./*.html --dist-dir ./build --public-url /StockMarket-All-In-One/"
   },
   "author": "",
   "license": "ISC",
