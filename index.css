@@ -133,3 +133,114 @@
   font-size: 1.2rem;
   margin: 0 0 0.75rem;
 }
+
+/* ——— 3D-style market slideshow (home only) ——— */
+.home-slideshow-section {
+  margin-bottom: 3rem;
+}
+
+.home-slideshow-section .home-section__title {
+  margin-bottom: 0.35rem;
+}
+
+.home-slideshow-section .home-section__sub {
+  margin-bottom: 1.5rem;
+}
+
+.showcase-3d {
+  position: relative;
+  max-width: 920px;
+  margin: 0 auto;
+  perspective: 1400px;
+  perspective-origin: 50% 40%;
+}
+
+.showcase-3d__viewport {
+  position: relative;
+  border-radius: 20px;
+  padding: 12px;
+  background: linear-gradient(
+    145deg,
+    rgba(59, 130, 246, 0.12),
+    rgba(15, 23, 42, 0.9) 40%,
+    rgba(34, 197, 94, 0.08)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  min-height: 220px;
+}
+
+@media (min-width: 640px) {
+  .showcase-3d__viewport {
+    min-height: 280px;
+  }
+}
+
+.showcase-3d__slides {
+  position: relative;
+  height: clamp(200px, 38vw, 320px);
+  transform-style: preserve-3d;
+}
+
+.showcase-3d__slide {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  border-radius: 14px;
+  overflow: hidden;
+  opacity: 0;
+  transform: rotateY(28deg) translateZ(-140px) scale(0.88);
+  transition: opacity 0.85s cubic-bezier(0.4, 0, 0.2, 1),
+    transform 0.85s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  pointer-events: none;
+}
+
+.showcase-3d__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.showcase-3d__slide.is-active {
+  opacity: 1;
+  transform: rotateY(0deg) translateZ(40px) scale(1);
+  z-index: 3;
+  pointer-events: auto;
+}
+
+.showcase-3d__dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+}
+
+.showcase-3d__dots button {
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border: none;
+  border-radius: 999px;
+  background: rgba(148, 163, 184, 0.35);
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.showcase-3d__dots button.is-active {
+  background: var(--sm-accent);
+  transform: scale(1.25);
+}
+
+.showcase-3d__dots button:focus-visible {
+  outline: 2px solid var(--sm-accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .showcase-3d__slide {
+    transition-duration: 0.25s;
+  }
+}
